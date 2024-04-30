@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style> a {
+        padding-right: 90px;
+        font-style:oblique;
+        font-size:large;
+      } 
+        a{
+            color:white;
+            text-decoration: none;
+        }
+        nav{
+            background-color: rgb(69,101,66);
+            margin-right: 0px;
+        }
+        td{
+            font-size: larger;
+        }
+
+        table{
+            background-color: rgb(69,101,66);
+            color: white;
+            border-color: white;
+        }
+
+       
+
+      
+      </style>
+    
+    <title>Fashion Website - Home</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+      <script>
+         validateform(event)
+        {
+             event.preventDefault();
+             alert('form submitted');
+        }
+      </script>
+
+
+</head>
+<body style="background-color:bisque">
+    <header>
+        <nav style="color:white;">
+
+            <ul>
+            
+                
+                <a href="index.html">Home</a>
+                <a href="registration.html"> registration </a>
+                <a href="women.html">Women</a>
+                <a href="men.html">Men</a>
+                <a href="kids.html"> Kids </a>
+                <a href="login.html">Login</a>
+                
+                <input type="text" placeholder="type to search" height="30px" width="150px" align="right">
+                
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-regular fa-heart"></i>
+            </a>
+                </ul>
+        </nav>
+        </header>
+
+       
+<center>
+        <h2>Registration Form</h2>
+        <form>
+           
+            <input type="text" id="name" name="name" placeholder="Name" required><br><br>
+            
+           
+            <input type="email" id="email" name="email" placeholder="Email" required><br><br>
+            
+            
+            <input type="password" id="password" name="password" placeholder="Password" required><br><br>
+            
+           
+            <input type="number" id="contact no." name="contact no." placeholder="Contact no." required><br><br>
+
+           
+            <input type="text" id="address" name="Address" placeholder="Address" required><br><br>
+
+            
+            <input type="text" id="country" name="country" placeholder="Country" required><br><br>
+            
+</form>
+</center>
+
+    <center>
+    <form action="women.html">
+            <input type="submit" value="Register">
+            </form>
+            </center>
+        
+        
+    </body>
+    </html>
